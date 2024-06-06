@@ -24,9 +24,6 @@
 		22D740662AFA336500D01663 /* MdotsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D740652AFA336500D01663 /* MdotsApp.swift */; };
 		22D7406A2AFA336600D01663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D740692AFA336600D01663 /* Assets.xcassets */; };
 		22D7406E2AFA336600D01663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D7406D2AFA336600D01663 /* Preview Assets.xcassets */; };
-		22D740782AFA336600D01663 /* MDotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D740772AFA336600D01663 /* MDotsTests.swift */; };
-		22D740822AFA336600D01663 /* MDotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D740812AFA336600D01663 /* MDotsUITests.swift */; };
-		22D740842AFA336600D01663 /* MDotsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D740832AFA336600D01663 /* MDotsUITestsLaunchTests.swift */; };
 		22D740A02AFA3D4F00D01663 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D7409F2AFA3D4E00D01663 /* AuthView.swift */; };
 		22D740A22AFA405300D01663 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D740A12AFA405200D01663 /* SignUpView.swift */; };
 		22D740A62AFA70F100D01663 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D740A52AFA70F100D01663 /* RootView.swift */; };
@@ -141,10 +138,7 @@
 		22D7406B2AFA336600D01663 /* MDots.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MDots.entitlements; sourceTree = "<group>"; };
 		22D7406D2AFA336600D01663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22D740732AFA336600D01663 /* MDotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22D740772AFA336600D01663 /* MDotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDotsTests.swift; sourceTree = "<group>"; };
 		22D7407D2AFA336600D01663 /* MDotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22D740812AFA336600D01663 /* MDotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDotsUITests.swift; sourceTree = "<group>"; };
-		22D740832AFA336600D01663 /* MDotsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDotsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		22D7409F2AFA3D4E00D01663 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		22D740A12AFA405200D01663 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		22D740A52AFA70F100D01663 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -269,8 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				22D740642AFA336500D01663 /* MDots */,
-				22D740762AFA336600D01663 /* MDotsTests */,
-				22D740802AFA336600D01663 /* MDotsUITests */,
 				22D740632AFA336500D01663 /* Products */,
 				22D740BD2AFE335500D01663 /* Frameworks */,
 			);
@@ -308,23 +300,6 @@
 				22D7406D2AFA336600D01663 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		22D740762AFA336600D01663 /* MDotsTests */ = {
-			isa = PBXGroup;
-			children = (
-				22D740772AFA336600D01663 /* MDotsTests.swift */,
-			);
-			path = MDotsTests;
-			sourceTree = "<group>";
-		};
-		22D740802AFA336600D01663 /* MDotsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				22D740812AFA336600D01663 /* MDotsUITests.swift */,
-				22D740832AFA336600D01663 /* MDotsUITestsLaunchTests.swift */,
-			);
-			path = MDotsUITests;
 			sourceTree = "<group>";
 		};
 		22D7409E2AFA3D2B00D01663 /* Auth */ = {
@@ -779,7 +754,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D740782AFA336600D01663 /* MDotsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,8 +761,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D740842AFA336600D01663 /* MDotsUITestsLaunchTests.swift in Sources */,
-				22D740822AFA336600D01663 /* MDotsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
